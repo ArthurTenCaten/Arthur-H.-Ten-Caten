@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Atividade que você pediu</title>
+    <link rel="stylesheet" href="Atividade2.css">
+  </head>
+  <body>
+    <main>
+    <h2 class="h2"> Atividade </h2>
+
+    <form>
+
+        <label for="nomesobrenome"> Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu nome completo">
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" class="input-padrao"required placeholder="seuemail@dominio.com">
+
+        <label for="telefone"> Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao"required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="rg"> RG</label>
+        <input type="rg" id="telefone" class="input-padrao"required placeholder="Seu RG">
+
+        <label for="cidade">Cidade</label>
+        <input type="cidade" id="cidade" class="input-padrao"required placeholder="Sua cidade">
+
+
+        <fieldset>
+          <legend>Qual time você prefere?</legend>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Bragantino</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Ponte Preta</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Volta Redonda</label>
+        </fieldset>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Comidas</th>
+              <th>Líquidos</th>
+              <th>Doces</th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr>
+              <td>Macarrão</td>
+              <td>Água</td>
+              <td>Bolo</td>
+            </tr>
+            <tr>
+              <td>Arroz</td>
+              <td>Suco de Laranja</td>
+              <td>Brigadeiro</td>
+            </tr>
+            <tr>
+              <td>Feijão</td>
+              <td>Suco de Limão</td>
+              <td>Beijinho</td>
+            </tr>
+            <tr>
+              <td>Carne</td>
+              <td>Cachaça</td>
+              <td>Croissant</td>
+            </tr>
+            <tr>
+              <td>Batata</td>
+              <td>Cerveja</td>
+              <td>Torta de Goiaba</td>
+            </tr>
+      </tbody>
+        </table>
+
+        <input type="submit" value="Enviar Formulário" class="enviar"></form>
